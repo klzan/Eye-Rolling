@@ -7,6 +7,7 @@
       const eyeCenterX = left + eyeElem.offsetWidth / 2;
       const eyeCenterY = top + eyeElem.offsetHeight / 2;
       const radian = Math.atan2(pageX - eyeCenterX, pageY - eyeCenterY);
+      const angle = ((radian * 180) / Math.PI) * -1;
     });
   }
   function run() {
